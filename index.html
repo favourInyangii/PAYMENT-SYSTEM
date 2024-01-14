@@ -11,48 +11,20 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--adding the payment method options-->
     <div class="container">
         <div class="left">
-            <p>payment methods</p>
+            <p>Payment Methods</p>
             <hr style="border: 1px solid #ccc; margin: 0 15px;">
-            <div class="methods">
-                <div onclick="dofun()" id="tColorA" style="color: greenyellow;"><i class="fa-solid fa-credit-card" style="color: #c2e802;"></i>
-                    payment by card </div>
-                    <div onclick="dofunA()" id="tColorB"><i class="fa-solid fa-building-columns"></i>Internet banks
-                    </div>
-                    <div onclick="dofunB()" id="tColorC"><i class="fa-solid fa-wallet"></i>Apple/Google pay</div>
+            <div class="Methods">
+                <div onclick="dofun()" id="tcolorA" style="color: greenyellow;"><i class="fa-solid fa-credit-card" style="color: greenyellow;"></i>
+                    Payment by Card</div>
+                    <div onclick="dofunA()" id="tcolorB"><i class="fa-solid fa-building-columns"></i> Internet banks</div>
+                    <div onclick="dofunB()" id="tcolorC"><i class="fa-solid fa-wallet"></i> Apple/Google Pay</div>
             </div>
             <hr style="border: 1px solid #ccc; margin: 0 15px;">
-        </div> 
-        <div class="center">          
-<a href="https://www.shift4shop.com/credit-card-logos.html"><img alt="Credit Card Logos" title="Credit Card Logos" src="https://www.shift4shop.com/images/credit-card-logos/cc-lg-4.png" width="250" height="auto" /></a>
-<hr style="border: 1px solid #ccc; margin: 0 15px;">
-<div class="card details">
-    <form>
-        <p>Card number</p>
-        <div class="c-number" id="c-number">
-            <input id="number" class="cc-number" placeholder="Card number" maxlength="19" required>
-            <i class="fa-solid fa-credit-card" style="margin: 0;"></i>
-        </div>
-        <div class="c-details">
-            <div>
-                <p>Expiry date</p>
-                <input id="e-date" class="cc-exp" placeholder="MM/YY" required maxlength="5" required>
-            </div>
-            <p>CVV</p>
-            <div class="cvv-box" id="cvv-box">
-                <input id="cvv" class="cc-cvv" placeholder="CVV" required maxlength="3" required>
-                <i class="fa-solid fa-circle-question" title="3 digits on the back of the card " style="cursor: pointer;"></i>
-            </div>
-        </div>
-    </div>
-    <div class="email">
-        <p>Email</p>
-        <input type="email" placeholder="worldpeace@email.com" id="email" required>
-    </div>
-    <button>PAY NOW</button>
-
+            <!--end of adding the payment method options-->
 
     <script src="js/index.js"></script>
 </body>
-</html>>
+</html>
